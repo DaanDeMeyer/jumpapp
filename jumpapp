@@ -428,7 +428,7 @@ exec_command() {
 }
 
 get_hostname() {
-    hostname
+    uname -n
 }
 
 die() {
